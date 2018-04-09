@@ -2,9 +2,8 @@
 # @Time: 3/11/18 4:29 PM
 # @Author: Ferras
 
-# from flask.ext.wtf import Form
 from flask_wtf import Form
-from wtforms import StringField, BooleanField
+from wtforms import StringField, BooleanField, TextField
 from wtforms.validators import DataRequired
 
 
